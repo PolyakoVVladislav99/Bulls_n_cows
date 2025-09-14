@@ -6,7 +6,7 @@ fun main() {
     println("Ваша задача — отгадать его!")
 
     val secret = generateSecretNumber()
-    println("DEBUG: $secret") // можно раскомментировать для отладки
+   // println("DEBUG: $secret") 
 
     var attempts = 0
     while (true) {
